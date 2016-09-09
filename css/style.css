@@ -1,0 +1,296 @@
+
+
+a:hover, a:active, a:focus {
+  outline: 0;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 2%;
+  background-color: white;
+  color: white;
+  border-bottom: 1px solid gray;
+  z-index: 9999999;
+}
+
+.menu nav a {
+  position: relative;
+  color: black;
+  text-decoration: none;
+  padding: 1%;
+}
+
+nav a:after { 
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 1px;
+    background-color: #f52256;
+    content: "";
+    transition: width 0.3s;
+}
+
+.menu a:hover {
+  color: #333;
+}
+
+.menu a:hover:after {
+  width: 100%;
+}
+
+.logottl {
+  margin-left: 5%;
+}
+
+#webtitle {
+  position: absolute;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  margin-left: 5%;
+  font-size: 110%;
+}
+
+#linkbro {
+  margin-left: 75%;
+}
+
+.mobilenav {
+  display: none;
+}
+
+.trigger {
+  display: none;
+}
+
+.w3content {
+  z-index: 1;
+}
+.headimg {
+  position: fixed;
+  top: -10%;
+}
+
+#title {
+
+
+}
+
+#title-org {
+  font-family: helvetica;
+  margin: 1%;
+}
+
+.content {
+  position: absolute;
+  z-index: 100;
+  margin-top: 56%;
+  background-color: whitesmoke;
+  width: 100%;
+  text-align: center;
+  padding: 10%;
+  color: black;
+}
+
+.w3-black {
+  background-color: #70CF58 !important;
+  opacity: 0.8;
+  margin-top: -2%;
+}
+
+.buttonss {
+  padding: 1%;
+  opacity: 0.5;
+}
+
+.jumper {
+  margin-top: -15%;
+  position: absolute;
+  text-align: center;
+  margin-left: 50%;
+  margin-right: auto;
+  z-index: 9999;
+  color: white;
+  -webkit-animation: burst 2s infinite linear;
+  animation: burst 2s infinite linear; 
+}
+
+.jumper:hover {
+  color: #2ecc71;
+  animation: bounce 10s ease infinite;
+}
+
+.post1 {
+  margin-top: -10%;
+  padding: 10%;
+  background-color: white;
+  margin-bottom: 1%;
+}
+
+.post1 img {
+  width: 33%;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+.post1:hover {
+  background: #fff;
+box-shadow: 0 6px 20px rgba(0,0,0,.15);
+}
+
+.post2 {
+  padding: 10%;
+  list-style: outside none none;
+  background-color: white;
+  margin-bottom: -10%;
+}
+
+.post2:hover {
+  background: #fff;
+box-shadow: 0 6px 20px rgba(0,0,0,.15);
+}
+
+.post-list {
+  text-align: justify;
+  word-spacing: 1px;
+  padding: 1%;
+}
+.organisasi {
+  position: absolute;
+  z-index: 99;
+  margin-top: 148%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 6%;
+}
+.card {
+  max-width: 17rem;
+  position: relative;
+  display: block;
+  margin-bottom: 0.75rem;
+  color: black;
+  text-align: center;
+  background-color: black;
+  border: 1px solid black;
+  float: left;
+  margin-left: 3%;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin-bottom: 2%;
+  font-size: 85%;
+}
+
+.card:hover {
+  background-color: #242424;
+box-shadow: 0 6px 20px rgba(0,0,0,.15);
+}
+
+.card-img-top {
+   width: 100%;
+  display: block;
+  background-color: white;
+}
+.card-block {
+  padding: 5%;
+  background-color: transparent;
+  color: white;
+}
+.card img {
+    margin-bottom: 0%;
+}
+#resize {
+  height: 253px !important;
+}
+#resize 2 {
+  height: 271px !important;
+}
+.btn {
+  margin-bottom: 5%;
+  background-color: transparent;
+  border-color: #2e6da4;
+}
+.forumpost {
+  position: absolute;
+  z-index: 200;
+  margin-top: 198%;
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 3%;
+  color: black;
+}
+.blogpost {
+  position: absolute;
+  z-index: 200;
+  margin-top: 216%;
+  width: 100%;
+  background-color: white;
+  padding: 3%;
+  color: black;
+}
+.footer {
+    position: absolute;
+    z-index: 200;
+    margin-top: 216%;
+    width: 100%;
+    background-color: #0eb6d2;
+    color: white;
+    padding: 10%;
+}
+
+
+.sj-content{
+  background-color: whitesmoke;
+  width: 100%;
+  text-align: center;
+  padding: 10%;
+  margin-bottom: -7%;
+  margin-top: 3%;
+}
+
+.sj-content #title {
+  margin-top: -11%;
+}
+
+#sejarah .post1 {
+  margin-top: -5%;
+padding: 15%;
+background-color: white;
+margin-bottom: 1%;
+}
+
+#sjftr {
+  margin-top: 0;
+}
+
+
+
+
+
+
+
+
+/* BOUNCE */
+@keyframes bounce {
+  0%,10%,20%,50%,80%,100%{transform:translateY(0)}
+  40%{transform:translateY(-15px)}
+  60%{transform:translateY(-15px)}
+}
+.faa-bounce.animated,
+.faa-bounce.animated-hover:hover,
+.faa-parent.animated-hover:hover > .faa-bounce {
+  animation: bounce 5s ease infinite;
+}
+.faa-bounce.animated.faa-fast,
+.faa-bounce.animated-hover.faa-fast:hover,
+.faa-parent.animated-hover:hover > .faa-bounce.faa-fast {
+  animation: bounce 1s ease infinite;
+}
+.faa-bounce.animated.faa-slow,
+.faa-bounce.animated-hover.faa-slow:hover,
+.faa-parent.animated-hover:hover > .faa-bounce.faa-slow {
+  animation: bounce 3s ease infinite;
+}
